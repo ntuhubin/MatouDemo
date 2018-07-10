@@ -26,11 +26,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         widget.cpp \
-    playimgthread.cpp
+    playimgthread.cpp \
+    cmysqlpro.cpp
 
 HEADERS += \
         widget.h \
-    playimgthread.h
+    playimgthread.h \
+    publicfun.h \
+    cmysqlpro.h \
+    g.h
 
 FORMS += \
         widget.ui
